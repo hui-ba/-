@@ -36,19 +36,19 @@ server=/*.xiaomi.com/119.29.29.29
 address=/mtalk.google.com/108.177.125.188
 
 [http_backend] 
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://qxzy.top/rules/QuantumultX/img/box.png, enabled=false
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://qxzy.top/rules/QuantumultX/img/box.png, enabled=true
 
 [policy]
 static=🚀 节点选择, ♻️ 自动选择, 🇭🇰 香港, 🇯🇵 日本, 🇸🇬 新加坡, 🇺🇸 美国, 🇰🇷 韩国, 🇨🇦 加拿大, 🇷🇺 俄罗斯, 🇹🇼 台湾, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
-url-latency-benchmark=♻️ 自动选择, server-tag-regex=^((?!🎧).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-url-latency-benchmark=🇯🇵 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-url-latency-benchmark=🇺🇸 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=m.square.fill.system
-url-latency-benchmark=🇹🇼 台湾, server-tag-regex=(?!.*(中国)).*(台湾), check-interval=600, tolerance=100, img-url=t.square.fill.system
-url-latency-benchmark=🇰🇷 韩国, server-tag-regex=(🇰🇷|韩国), check-interval=600, tolerance=100, img-url=h.square.fill.system
-url-latency-benchmark=🇨🇦 加拿大, server-tag-regex=(🇨🇦|加拿大), check-interval=600, tolerance=100, img-url=paperplane.system
-url-latency-benchmark=🇷🇺 俄罗斯, server-tag-regex=(🇷🇺|俄罗斯), check-interval=600, tolerance=100, img-url=pencil.circle.fill.system
+url-latency-benchmark=♻️ 自动选择, server-tag-regex=^((?!🎧).)*$, check-interval=10800, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=10800, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+url-latency-benchmark=🇯🇵 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=10800, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=10800, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+url-latency-benchmark=🇺🇸 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=10800, tolerance=100, img-url=m.square.fill.system
+url-latency-benchmark=🇹🇼 台湾, server-tag-regex=(?!.*(中国)).*(台湾|TW), check-interval=10800, tolerance=100, img-url=t.square.fill.system
+url-latency-benchmark=🇰🇷 韩国, server-tag-regex=(🇰🇷|韩国), check-interval=10800, tolerance=100, img-url=h.square.fill.system
+url-latency-benchmark=🇨🇦 加拿大, server-tag-regex=(🇨🇦|加拿大), check-interval=10800, tolerance=100, img-url=paperplane.system
+url-latency-benchmark=🇷🇺 俄罗斯, server-tag-regex=(🇷🇺|俄罗斯), check-interval=10800, tolerance=100, img-url=pencil.circle.fill.system
 static=AdBlock, reject, direct, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/AdBlock.png
 static=Apple Update, direct, reject, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/zwf234/Icon/main/Apple_Update.png
 static=Apple, direct, 🚀 节点选择, ♻️ 自动选择, proxy, reject, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Apple.png
@@ -64,26 +64,25 @@ static=Telegram, direct, 🚀 节点选择, ♻️ 自动选择, img-url=https:/
 static=Microsoft, direct, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Microsoft.png
 static=PayPal, direct, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Paypal.png
 static=Mainland, direct, proxy, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Mainland.png
-static=Others, direct, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
-static=Outside, direct, proxy, reject, 🚀 节点选择, ♻️ 自动选择
+static=Others, direct, 🚀 节点选择, ♻️ 自动选择, img-url=xmark.bin.fill.system
+static=Outside, direct, proxy, reject, 🚀 节点选择, ♻️ 自动选择, img-url=clear.system
 
 [server_local]
 # 本地服务器部分
 # 自行添加即可
 
 [server_remote]
-https://bihai.cf/sip002/sub, tag=碧海SS, update-interval=86400, opt-parser=true, enabled=false
-https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml, tag=白嫖, update-interval=86400, opt-parser=true, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/name.png, enabled=true
-https://qxzy.top/tool.txt, tag=奇心科技, img-url=https://qxzy.top/rules/QuantumultX/img/qi.png, update-interval=86400, opt-parser=false, enabled=false
-#解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
-https://qxzy.top/rules/QuantumultX/gz/wyy.list, tag=网易解锁, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png, update-interval=86400, opt-parser=true, enabled=false
+https://6166888.xyz/clash/proxies, tag=6166888, update-interval=172800, opt-parser=true, enabled=true
+https://suo.yt/9IIgvLv, tag=suo, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml, tag=白嫖, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/name.png, update-interval=86400, opt-parser=true, enabled=true
+
 # 节点远程订阅，自行添加
 
 [filter_remote]
 https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=广告拦截, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=广告规则, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zwf234/rules/master/shunt/Apple.list, tag=苹果服务, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/zwf234/rules/master/shunt/wyy.list, tag=网易音乐, update-interval=86400, opt-parser=false, enabled=true
+
 https://raw.githubusercontent.com/zwf234/rules/master/shunt/CMedia.list, tag=大陆媒体, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zwf234/rules/master/shunt/TikTok.list, tag=海外抖音, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zwf234/rules/master/shunt/Clubhouse.list, tag=音频社交, update-interval=86400, opt-parser=false, enabled=true
@@ -127,7 +126,6 @@ final, Others
 [rewrite_remote]
 # rewrite 复写远程订阅
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机规则重定向, update-interval=86400, opt-parser=false, enabled=true
-https://cdn.jsdelivr.net/gh/zwf234/rules@master/qxrules.conf, tag=奇心规则合集, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告 Plus, update-interval=86400, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/zwf234/rules@master/TikTok/JP.conf, tag=解锁TikTok（更改后缀换区）, update-interval=86400, opt-parser=false, enabled=true
@@ -140,7 +138,6 @@ https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1
 #本地复写规则
 #Task远程订阅  https://cdn.jsdelivr.net/gh/zwf234/rules@master/qixin.json
 [task_local]
-#陌路收集整理
 #boxjs切换会话
 * * * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://qxzy.top/rules/QuantumultX/img/box.png, enabled=false
 
